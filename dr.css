@@ -1,0 +1,97 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 2rem;
+}
+.container{
+    width: 100vw;
+}
+
+#booking-form {
+	flex-basis: 48%;
+	margin-right: 2%;
+	background-color: #f2f2f2;
+	padding: 2rem;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#booking-form h2 {
+	margin-top: 0;
+}
+
+#booking-form label {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+#booking-form input[type="text"],
+#booking-form input[type="email"],
+#booking-form input[type="tel"],
+#booking-form select {
+	width: 100%;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border: none;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#booking-form input[type="date"] {
+	width: auto;
+}
+
+#booking-form button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	border: none;
+	cursor: pointer;
+}
+
+#available-flats {
+	flex-basis: 48%;
+}
+
+#available-flats h2 {
+	margin-top: 0;
+}
+
+#available-flats ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#available-flats li {
+	background-color: #f2f2f2;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#available-flats h3 {
+	margin-top: 0;
+}
+
+#available-flats button {
+	background-color: #333;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	border: none;
+	cursor: pointer;
+	margin-top: 1rem;
+	display: block;
+}
